@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.bgImage {
+    /* overflow-x: hidden; */
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    /* background-image: url("https://content.jdmagicbox.com/comp/pune/r7/020pxx20.xx20.130606161555.w2r7/catalogue/clik-photo-hub-pimpri-pune-photo-studios-71i376ao1l.jpg?clr="); */
+    background-image: url("https://i.pinimg.com/736x/3e/58/8a/3e588a818e65d3deb54462936dd04660.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.signcardDiv {
+    /* height: 100%; */
+    width: 120%;
+    /* padding-right: 1px; */
+    /* padding-left: 20%; */
+
+    /* z-index: 1; */
+
+
+}
+
+.colorfaint {
+    background-color: rgb(229, 246, 246);
+}
+
+.iconFont {
+    font-size: 100px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+
+}
+
+:start .RFree {
+    font-style: oblique;
+}
+
+.RFree:hover {
+    color: rgb(71, 70, 70);
+}
+
+
+
+
+/* _____________second content___________________ */
+
+
+
+.imgEffect {
+    --s: 250px;
+    /* the size of the image */
+    --b: 8px;
+    /* the border thickness*/
+    --g: 14px;
+    /* the gap */
+    --c: #4ECDC4;
+    /* the color */
+
+    width: var(--s);
+    /* aspect-ratio: 1; */
+    outline: calc(var(--s)/2) solid rgba(85, 83, 85, 0.6);
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 60%;
+}
+
+
+.imgEffect:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
+
+.match {
+    font-family: fantasy;
+    display: flex;
+    color: silver;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footerAboutBg {
+    padding: 5px;
+    background-color: rgb(29, 29, 35);
+    color: silver;
+}
+
+.footerAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+ 
+    background-color: rgb(3, 17, 27);
+    color: silver;
+
+
+}
+
+
+/* .ss {
+    background-color: rgb(14, 38, 54);
+} */
+
+
+
+.names {
+    display: flex;
+    justify-content: center;
+
+
+
+}

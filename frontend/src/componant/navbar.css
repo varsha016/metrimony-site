@@ -1,0 +1,32 @@
+.head {
+    font-style: italic;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font: bold;
+    color: rgba(20, 22, 22, 0.891);
+    text-decoration: underline;
+    padding-bottom: 6%;
+    font-weight: bold;
+    /* margin-top: 5px; */
+}
+
+
+
+
+.heading {
+    font-weight: lighter;
+    color: silver;
+    /* background-color: silver; */
+    font-size: 30px;
+    padding-left: 10px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: bold;
+}
+
+.he {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.heading:hover {
+    color: rgb(165, 135, 248);
+}

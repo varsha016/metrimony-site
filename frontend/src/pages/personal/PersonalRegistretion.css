@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 160px;
+    width: 99vw;
+    background-color: rgb(30, 1, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.navW {
+    width: 50%;
+}
+
+.myLink {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 5%; */
+    font-size: 130%;
+    color: white;
+}

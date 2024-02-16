@@ -1,0 +1,17 @@
+{
+  "name": "matrimony-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "text.js",
+  "scripts": {
+    "frontend": "cd frontend && yarn start ",
+    "backend": "cd backend && nodemon server.js",
+    "start": "concurrently \" npm run frontend \" \" npm run backend \" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
